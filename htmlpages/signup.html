@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Student Sign-Up Form</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+
+    <h1>University Student Sign-Up Form</h1>
+    <div class="loginsignup">
+        <div class="loginsignup-container">
+            <form action="/submit_signup" method="post" enctype="multipart/form-data">
+                
+                <!-- Personal Information Section -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender">Gender:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+
+                        <input type="radio" id="other" name="gender" value="other" required>
+                        <label for="other">Other</label>
+                    </div>
+                </fieldset>
+
+                <!-- Academic Information Section -->
+                <fieldset>
+                    <legend>Academic Information</legend>
+                    <label for="program">Select Program:</label>
+                    <select id="program" name="program" required>
+                        <option value="">--Select Program--</option>
+                        <option value="bachelor">Bachelor's Degree</option>
+                        <option value="master">Master's Degree</option>
+                        <option value="phd">PhD</option>
+                    </select>
+
+                    <label for="course">Course:</label>
+                    <input type="text" id="course" name="course" required>
+
+                    <label for="year-of-entry">Year of Entry:</label>
+                    <input type="number" id="year-of-entry" name="year-of-entry" min="2000" max="2100" required>
+
+                    <label for="campus">Preferred Campus:</label>
+                    <select id="campus" name="campus" required>
+                        <option value="">--Select Campus--</option>
+                        <option value="main">Main Campus</option>
+                        <option value="city">City Campus</option>
+                        <option value="satellite">Satellite Campus</option>
+                    </select>
+                </fieldset>
+
+                <!-- Preferences Section -->
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <label for="accommodation">Accommodation:</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="hostel" name="accommodation" value="hostel">
+                        <label for="hostel">University Hostel</label>
+
+                        <input type="checkbox" id="private" name="accommodation" value="private">
+                        <label for="private">Private Residence</label>
+                    </div>
+
+                    <label for="mode-of-study">Mode of Study:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="full-time" name="study-mode" value="full-time" required>
+                        <label for="full-time">Full-Time</label>
+
+                        <input type="radio" id="part-time" name="study-mode" value="part-time" required>
+                        <label for="part-time">Part-Time</label>
+                    </div>
+
+                    <label for="language">Preferred Language:</label>
+                    <select id="language" name="language" required>
+                        <option value="">--Select Language--</option>
+                        <option value="english">English</option>
+                        <option value="french">French</option>
+                        <option value="spanish">Spanish</option>
+                    </select>
+                </fieldset>
+
+                <!-- Upload Documents Section -->
+                <fieldset>
+                    <legend>Upload Documents</legend>
+                    <label for="profile-pic">Upload Profile Picture:</label>
+                    <input type="file" id="profile-pic" name="profile-pic" accept="image/*" required>
+
+                    <label for="id-proof">Upload ID Proof:</label>
+                    <input type="file" id="id-proof" name="id-proof" accept=".pdf,.doc,.docx,.jpg,.png" required>
+                </fieldset>
+
+                <!-- Additional Information -->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label for="comments">Comments or Questions:</label>
+                    <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Enter your comments here..."></textarea>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

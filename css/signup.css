@@ -1,0 +1,116 @@
+/* General styling for the sign-up page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4A90E2;
+}
+
+.loginsignup {
+    width: 100%;
+    height: auto;
+    background: #b3e5fc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.loginsignup-container {
+    width: 650px;
+    height: auto;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Input fields */
+.loginsignup-container label {
+    font-size: 16px;
+    color: #333;
+}
+
+.loginsignup-container input,
+.loginsignup-container select,
+.loginsignup-container textarea {
+    height: 45px;
+    width: 100%;
+    padding-left: 15px;
+    border: 2px solid #c9e7f5;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.loginsignup-container textarea {
+    height: 120px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.radio-group, 
+.checkbox-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.radio-group input, 
+.checkbox-group input {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    height: 55px;
+    color: white;
+    background: #4A90E2;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .loginsignup-container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
