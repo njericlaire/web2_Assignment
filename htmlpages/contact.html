@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h3>Contact Us</h3>
+
+    <div class="contact" id="contact">
+        <div class="contact_col">
+            <h3>Send us a message</h3>
+            <p>Feel free to reach out through the form. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional services to our university community.</p>
+            <ul>
+                <li><img src="https://i.pinimg.com/736x/d7/90/ff/d790ff28dab3ab8a09428b5592aaa52b.jpg" alt="Mail Icon"/>Contact@gamil.com</li>
+                <li><img src="https://i.pinimg.com/736x/04/99/24/0499242993fe31ef542bde0030f7ba74.jpg" alt="Phone Icon"/>+1234677</li>
+                <li><img src="https://i.pinimg.com/564x/ad/a0/2a/ada02ac51a6fa3e202012d46c2e8af32.jpg" alt="Location Icon"/>Nairobi, Kenya</li>
+            </ul>
+        </div>
+        <div class="contact_col">
+            <form onsubmit="onSubmit()">
+                <label for="name">Your name</label>
+                <input type="text" name="name" placeholder="Enter your name" required />
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" placeholder="Enter phone number" required />
+                <label for="message">Write your message</label>
+                <textarea name="message" rows="6" placeholder="Enter your message" required></textarea>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+            <span id="result"></span>
+        </div>  
+    </div>
+
+</body>
+</html>

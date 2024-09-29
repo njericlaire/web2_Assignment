@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="navbar"></div>
+    <div id="hero"></div>
+    <div id="program"></div>
+    <div id="about"></div>
+    <div id="campus"></div>
+    <div id="testimonials"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    
+
+    
+    <script>
+        fetch('/htmlpages/navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+        fetch('/htmlpages/hero.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('hero').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+
+        fetch('/htmlpages/program.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('program').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+
+        fetch('/htmlpages/campus.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('campus').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+        fetch('/htmlpages/about.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('about').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+        fetch('/htmlpages/testimonials.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('testimonials').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+        fetch('/htmlpages/contact.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('contact').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error));
+
+        fetch('/htmlpages/footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data)
+        .catch(error => console.error('Error fetching navbar:', error))
+    </script>
+</body>
+</html>
