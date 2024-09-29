@@ -5,17 +5,22 @@ The **Educator** website serves as an online platform for universities to showca
 
 ## Features
 - **Login Page:** Enables existing students to access their accounts securely.
-    ![login page]()
+    ![login page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/login.png?raw=true)
 - **Sign-Up Page:** Allows new students to register for the university by filling out a comprehensive sign-up form that collects personal and academic information.
   ![signup page](https://github.com/user-attachments/assets/e6d32f1f-e66b-4302-98e9-86c06991923b)
   ![signup images](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/si.png?raw=true)
   ![Alt text](https://github.com/user-attachments/assets/b05f2a72-2aa2-46b5-bc3a-402849adfb29)
   ![Alt text](https://github.com/user-attachments/assets/1bcdf835-2ed1-4af8-996d-acc3e7a91133)
 - **Hero Section:** Provides a captivating introduction to the university, highlighting its mission, values, and unique selling points.
+  ![hero page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/heronav.png?raw=true)
 - **About Page:** Details the university's history, achievements, and what sets it apart from other institutions.
+  ![about page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/about.png?raw=true)
 - **Contact Page:** Offers contact information and a form for inquiries, allowing potential students to reach out for more information.
+  ![contact page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/contact.png?raw=true)
 - **Testimonials Page:** Showcases experiences and reviews from current students, enhancing credibility and encouraging new enrollments.
+  ![testimonials page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/testimonials.png?raw=true)
 - **University Pictures:** Displays a gallery of images, giving prospective students a visual insight into campus life, facilities, and events.
+  ![unipics page](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/campuspics.png?raw=true)
 
 ## Application Domain
 The **Educator** website is tailored for higher education institutions aiming to:
