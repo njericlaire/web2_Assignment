@@ -5,6 +5,7 @@ The **Educator** website serves as an online platform for universities to showca
 
 ## Features
 - **Login Page:** Enables existing students to access their accounts securely.
+    ![login page]()
 - **Sign-Up Page:** Allows new students to register for the university by filling out a comprehensive sign-up form that collects personal and academic information.
   ![signup page](https://github.com/user-attachments/assets/e6d32f1f-e66b-4302-98e9-86c06991923b)
   ![signup images](https://github.com/njericlaire/web2_Assignment/blob/main/websitepics/si.png?raw=true)
